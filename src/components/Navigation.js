@@ -1,12 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import './Navigation.css';
 
-function Navigation() {
+function Navigation(props) {    
     return (
         <div className="nav">
             <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
+            <Link to="/about" state={true}>About</Link>
         </div>
 
     );
@@ -14,6 +14,3 @@ function Navigation() {
 }
 
 export default Navigation;
-
-{/* <a href="/#/">Home</a>
-<a href="/#/about">About</a> */}

@@ -3,6 +3,12 @@ import axios from "axios";
 import Movie from "../components/Movie";
 import './Home.css';
 
+import {
+  useLocation,
+  useNavigate,
+  useParams,
+} from "react-router-dom";
+
 
 class Home extends React.Component {
 
