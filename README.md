@@ -2,73 +2,23 @@
 
 React JS Fundamentals Course 2024
 
-# Getting Started with Create React App
+## 개요
+JavaScript 언어의 React 프레임워크를 활용해 영화 리뷰 웹사이트를 클론 코딩한 프로젝트
+참고 서적 : Do it! 클론 코딩 영화 평점 웹서비스
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 프로젝트 설명
+HTML, CSS, JS 기본적인 구현 내용 및 설명<br>
+리액트 프레임 워크 적용<br>
+자바스크립트로 페이지 연결 및 공개 API 호출(axios)<br>
+props와 location을 활용해 페이지간 데이터 전달
 
-## Available Scripts
+### 환경세팅
+- node (20.10.0)
+- npm (10.2.3)
+- react (18.2.0)
+- Editor : vscode 추천 (+확장 프로그램 추가 => Liver Server, Code Runner)
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 추가 참고 내용
+- react 버전 변경으로 인해 페이지 간 데이터 전달 방법이 변경되었음, 책에 있는대로 하면 구버전이라 확인 불가능, 위에 적힌 새로운 방법 적용 필요
+- react 새로운 버전으로 component 형태로 페이지 구현 가능 => 이 프로젝트에 적용된 클래스 방법보다 간소화 및 간단하게 데이터 전달 가능함, 다만 클래스가 아니므로 오는 단점도 존재
+- 영화 정보 api 사이트 : https://yts.mx/api

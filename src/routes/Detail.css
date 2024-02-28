@@ -1,0 +1,8 @@
+.movie_detail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: start;
+    margin: 100px 200px 100px 200px;
+    border: 1px solid;
+}

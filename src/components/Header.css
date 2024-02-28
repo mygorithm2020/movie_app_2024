@@ -1,0 +1,22 @@
+.top_bar {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: lightgray;
+    width: 100%;
+}
+
+#home_page {
+    margin: 30px;
+}
+
+#header_menu_list{
+    list-style: none;
+    vertical-align: middle;
+}
+#header_menu_list li {
+    float: left;
+    margin-right: 20px;
+    font-weight: bold;
+}
